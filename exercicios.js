@@ -1,17 +1,18 @@
-// IMC peso dividido por altura ao quadrado 
 // EXERCICIO 1
-var nome = "Hérique"
-var idade = "15"
-console.log("Olá!, meu nome é: " + nome, "e eu tenho:" + idade , "anos")
+let nome = "Hérique"
+let idade = 15
+console.log("Olá!, meu nome é: " + nome+ "e eu tenho:" + idade + "anos") // alt + shif e f organiza a frase //
+console.log(`Olá!, meu nome é ${nome} e eu tenho ${idade} anos`) // interpolação
 // EXERCICIO 02
 let letra = "instituto Federal";
-console.log(letra.toLowerCase(), letra.toUpperCase())
+console.log(`tudo minúsculo: ${letra.toLowerCase()} tudo maiúsculo: ${letra.toUpperCase()}`)
 
 // EXERCICIO 03
-var palavra = 88;
-console.log(typeof palavra);
+let numero = 88;
+console.log(`tipo da palavra: ${typeof numero}`);
 
-// EXERCICIO 04 
-var altura = 1.75
-var peso = 59
-console.log(("imc:" + peso /(altura * altura)).ToFixed(2));
+// EXERCICIO 04 // IMC peso dividido por altura ao quadrado 
+let altura = 1.75
+let peso = 59
+imc = peso /(altura * altura);
+console.log(imc.toFixed(2))
