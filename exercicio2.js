@@ -1,22 +1,22 @@
 // 1. Info do apê
-const ap = {
+let ap = {
     quartos: 2,
     tipo: "apartamento",
     endereco: "Avenida Principal, 456 - Centro",
     andar: 7
   };
   
-  console.log(`Apê com ${ap.quartos} quartos, no ${ap.andar}º andar, fica na ${ap.endereco}.`);
+  console.log(`Apartamento com ${ap.quartos} quartos, no ${ap.andar}º andar, fica na ${ap.endereco}.`);
   
   // 2. Produto embalado
-  const produto = {
+  let produto = {
     nome: "Laptop HP",
     categoria: "Eletrônicos",
     peso: 1.5,
     preco: 3500.00
   };
   
-  console.log(`O produto ${produto.nome}, da categoria ${produto.categoria}, pesa ${produto.peso} kg e custa R$ ${produto.preco.toFixed(2)}.`);
+  console.log(`o Produto embalado ${produto.nome}, da categoria ${produto.categoria}, pesa ${produto.peso}kg e custa R$ ${produto.preco.toFixed(2)}. `)
   
   // 3. Classe Imovel
   class Imovel {
