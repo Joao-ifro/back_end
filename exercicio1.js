@@ -11,7 +11,7 @@ console.log(`tudo minúsculo: ${letra.toLowerCase()} tudo maiúsculo: ${letra.to
 let numero = 88;
 console.log(`tipo da palavra: ${typeof numero}`);
 
-// EXERCICIO 04 // IMC peso dividido por altura ao quadrado 
+// EXERCICIO 04 // IMC peso dividido por altura ao quadradoo
 let altura = 1.75
 let peso = 59
 imc = peso /(altura * altura);
