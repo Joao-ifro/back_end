@@ -12,7 +12,7 @@ let numero = 88;
 console.log(`tipo da palavra: ${typeof numero}`);
 
 // EXERCICIO 04 // IMC peso dividido por altura ao quadradoo
-let altura = 1.75
-let peso = 59
+let altura = 1.75;
+let peso = 59;
 imc = peso /(altura * altura);
 console.log(imc.toFixed(2))
